@@ -1,23 +1,83 @@
 aid: bilton
+
 name: BiltOn
-description: 'BiltOn is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.bilton.tech/wp-content/uploads/2026/01/logo.svg
+
+description: 'BiltOn empowers construction owners and general contractors to streamline site operations, improve safety, reduce risk, and stay compliant. The AI‑powered platform offers crew safety visibility, risk compliance management, and integrated solutions for building loops, labor management, and site safety, delivering real‑time data and analytics across field, trailer, and office.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
-- Company
-apis: []
+- Construction
+- Safety
+- AI
+- SaaS
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/bilton-llms.txt
+- type: Hosts
+  url: hosts/bilton-hosts.yml
+- type: Vendors
+  url: vendors/bilton-vendors.yml
+- type: DomainSecurity
+  url: security/bilton-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://bilton.tech
+
+- type: Documentation
+  url: https://bilton.tech/docs
+- type: APIReference
+  url: https://bilton.tech/api
+- type: DeveloperPortal
+  url: https://bilton.tech/developers
+- type: GettingStarted
+  url: https://bilton.tech/getting-started
+- type: Support
+  url: https://bilton.tech/contact-us
+- type: Blog
+  url: https://bilton.tech/blog
+- type: Pricing
+  url: https://bilton.tech/pricing
+- type: TermsOfService
+  url: https://bilton.tech/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://bilton.tech/privacy-policy
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages return HTML shells and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://bilton.tech/docs
+      status: 200
+  checked: '2026-09-28'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

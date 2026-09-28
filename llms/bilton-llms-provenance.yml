@@ -1,0 +1,6 @@
+generated: '2026-09-28'
+method: probed
+generator: harvest-llms.py
+source: https://bilton.tech/llms.txt
+bytes: 2005
+note: saved verbatim; the provider's own document

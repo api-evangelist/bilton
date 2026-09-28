@@ -1,0 +1,31 @@
+# BiltOn
+
+> BiltOn empowers construction Owners and General Contractors to streamline site operations, improve safety, reduce risk, and stay compliant.
+
+## Pages
+
+- [Home](https://bilton.tech/): Main page
+- [Blog](https://bilton.tech/blog): Blog page
+- [Blog List](https://bilton.tech/admin/blog): Blog List page
+- [Building Loop](https://bilton.tech/building-loop): Building Loop page
+- [Case Study List](https://bilton.tech/admin/case-studies): Case Study List page
+- [Company](https://bilton.tech/company): Company page
+- [Contact Us](https://bilton.tech/contact-us): Contact Us page
+- [Crew Safety Visibility](https://bilton.tech/solutions/labor-and-workforce-management): Crew Safety Visibility page
+- [Customer Voices](https://bilton.tech/case-studies): Customer Voices page
+- [Demo](https://bilton.tech/demo): Demo page
+- [Enterprise Security](https://bilton.tech/enterprise-security): Enterprise Security page
+- [Integrations](https://bilton.tech/integrations): Integrations page
+- [Intelligence Preventative Risk](https://bilton.tech/solutions/risk-compliance-management): Intelligence Preventative Risk page
+- [Master Services Agreement](https://bilton.tech/msa): Master Services Agreement page
+- [Media Library](https://bilton.tech/admin/media): Media Library page
+- [Pricing](https://bilton.tech/pricing): Pricing page
+- [Privacy Policy](https://bilton.tech/privacy-policy): Privacy Policy page
+- [Safety Compliance Management](https://bilton.tech/solutions/site-safety-management): Safety Compliance Management page
+- [Schedule1](https://bilton.tech/msa/schedule-1): Schedule1 page
+- [Schedule3](https://bilton.tech/msa/schedule-3): Schedule3 page
+- [Schedule4](https://bilton.tech/msa/schedule-4): Schedule4 page
+- [Schedule5](https://bilton.tech/msa/schedule-5): Schedule5 page
+- [Schedule6](https://bilton.tech/msa/schedule-6): Schedule6 page
+- [Solutions](https://bilton.tech/platform): Solutions page
+- [Terms Conditions](https://bilton.tech/terms-and-conditions): Terms Conditions page
